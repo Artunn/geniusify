@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8fb1ce3a6c1c1d5130312168d51afae0",
+    "revision": "da56551a310d2d6091bed6d333f30f00",
     "url": "/geniusify/index.html"
   },
   {
