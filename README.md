@@ -1,5 +1,7 @@
 <h1>What is geniusify? ⛷</h1>
-Geniusify randomly transform letters of a text to their uppercase or lowercase form, to cause a mocking feel 🦁.
+Geniusify randomly transforms letters of a text to uppercase or lowercase, and causes mocking feel through text 🦁.
+
+<img>
 
 <h3>Example</h3>
 <pre>
