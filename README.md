@@ -5,6 +5,7 @@ Geniusify randomly transforms letters of a text to uppercase or lowercase. Purpo
 <pre>
 Input:
 An important feature of academic texts is that they are organised in a specific way; they have a clear structure.
+
 Output:
 An ImPoRtaNt feAtUre oF aCaDemIc teXts iS ThAt thEy ArE oRgaNiSed iN A SpeCiFic waY; tHey haVe A ClEaR sTrUcTuRe.
 </pre>
