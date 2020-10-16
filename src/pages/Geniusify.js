@@ -4,6 +4,7 @@ import './Geniusify.css'
 export default function Geniusify() {
     const [inputboxstate, setinputboxstate] = useState("");
     const [geniusifiedboxstate, setgenuisifiedboxstate] = useState("");
+    const [headerstate, setheaderstate] = useState("");
     const textarearef = useRef(null);
 
     const randomizeText = useCallback((inputobj) => {
@@ -48,10 +49,15 @@ export default function Geniusify() {
         };
     }, [inputboxstate, geniusifyInputText]);
 
+    useEffect(() => {
+        setheaderstate(randomizeText("Geniusify"));
+    }
+        , [])
+
     return (
         <div className={"geniusify"}>
             <div className={"geniusify__body"}>
-                <h1>{randomizeText("Geniusify")}</h1>
+                <h1>{headerstate}</h1>
                 <div className={"geniusify-textarea__wrapper"}>
                     <textarea placeholder={"Type your text here"} className={"geniusify-textarea"} onChange={(e) => { setinputboxstate(e.target.value) }} value={inputboxstate}></textarea>
                 </div>
