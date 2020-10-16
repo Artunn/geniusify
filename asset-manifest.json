@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/geniusify/static/css/main.64e84358.chunk.css",
+    "main.css": "/geniusify/static/css/main.28f4be19.chunk.css",
     "main.js": "/geniusify/static/js/main.610e78d3.chunk.js",
     "main.js.map": "/geniusify/static/js/main.610e78d3.chunk.js.map",
     "runtime-main.js": "/geniusify/static/js/runtime-main.08e37006.js",
@@ -8,15 +8,15 @@
     "static/js/2.47e1b9fa.chunk.js": "/geniusify/static/js/2.47e1b9fa.chunk.js",
     "static/js/2.47e1b9fa.chunk.js.map": "/geniusify/static/js/2.47e1b9fa.chunk.js.map",
     "index.html": "/geniusify/index.html",
-    "precache-manifest.18d2bbfcb62cdb8715d289802ef918ad.js": "/geniusify/precache-manifest.18d2bbfcb62cdb8715d289802ef918ad.js",
+    "precache-manifest.f8f346a9a85ffa2548bdb9bcfcb2a881.js": "/geniusify/precache-manifest.f8f346a9a85ffa2548bdb9bcfcb2a881.js",
     "service-worker.js": "/geniusify/service-worker.js",
-    "static/css/main.64e84358.chunk.css.map": "/geniusify/static/css/main.64e84358.chunk.css.map",
+    "static/css/main.28f4be19.chunk.css.map": "/geniusify/static/css/main.28f4be19.chunk.css.map",
     "static/js/2.47e1b9fa.chunk.js.LICENSE.txt": "/geniusify/static/js/2.47e1b9fa.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.08e37006.js",
     "static/js/2.47e1b9fa.chunk.js",
-    "static/css/main.64e84358.chunk.css",
+    "static/css/main.28f4be19.chunk.css",
     "static/js/main.610e78d3.chunk.js"
   ]
 }
