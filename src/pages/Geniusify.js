@@ -52,13 +52,13 @@ export default function Geniusify() {
             <div className={"geniusify__body"}>
                 <h1>GeNiuSifY</h1>
                 <div className={"geniusify-textarea__wrapper"}>
-                    <textarea className={"geniusify-textarea"} onChange={(e) => { setinputboxstate(e.target.value) }} value={inputboxstate}></textarea>
+                    <textarea placeholder={"Type your text here"} className={"geniusify-textarea"} onChange={(e) => { setinputboxstate(e.target.value) }} value={inputboxstate}></textarea>
                 </div>
                 <div>
                     <button className={"geniusify-button"} onClick={geniusifyInputText}>CLICK HERE</button>
                 </div>
                 <div className={"geniusify-textarea__wrapper"} >
-                    <textarea className={"geniusify-textarea"} ref={textarearef} value={geniusifiedboxstate} readOnly={true}></textarea>
+                    <textarea placeholder={"YoUr ReSuLt WiLl bE hErE"} className={"geniusify-textarea"} ref={textarearef} value={geniusifiedboxstate} readOnly={true}></textarea>
                 </div>
                 <div className={"genuisfy-lowbutton_wrapper"}>
                     <button className={"geniusify-button"} onClick={copyToClipboard}>COPY</button>
