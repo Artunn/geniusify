@@ -6,7 +6,6 @@ export default function Geniusify() {
     const [geniusifiedboxstate, setgenuisifiedboxstate] = useState("");
     const textarearef = useRef(null);
 
-
     //Randomly transform letters to lowercase or uppercase
     const geniusifyInputText = useCallback(() => {
         let noncapitalized = 0;
