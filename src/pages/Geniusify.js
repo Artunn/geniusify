@@ -6,17 +6,13 @@ export default function Geniusify() {
     const [geniusifiedboxstate, setgenuisifiedboxstate] = useState("");
     const textarearef = useRef(null);
 
-    //Randomly transform letters to lowercase or uppercase
-    const geniusifyInputText = useCallback(() => {
-        let noncapitalized = 0;
-        if (inputboxstate.length === 0) {
+    const randomizeText = useCallback((inputobj) => {
+        if (inputobj.length === 0) {
             alert("You need to type something my bRiLliAnT friend");
             return;
-        } else {
-            noncapitalized = (inputboxstate[0].toUpperCase() === inputboxstate[0]) ? 2 : 0;
         }
-        setgenuisifiedboxstate([...inputboxstate].map(letter => {
-            console.log(letter);
+        let noncapitalized = (inputobj[0].toUpperCase() === inputobj[0]) ? 2 : 0;
+        return [...inputobj].map(letter => {
             if ((Math.random() >= 0.5 && noncapitalized !== 0) || noncapitalized >= 2) {
                 letter = letter.toUpperCase();
                 noncapitalized = 0;
@@ -25,8 +21,13 @@ export default function Geniusify() {
                 noncapitalized++;
             }
             return letter;
-        }).join(""))
+        }).join("")
     }, [inputboxstate]);
+
+    //Randomly transform letters to lowercase or uppercase
+    const geniusifyInputText = useCallback(() => {
+        setgenuisifiedboxstate(randomizeText(inputboxstate))
+    }, [inputboxstate, randomizeText]);
 
     //Copy the clipboard
     const copyToClipboard = (e) => {
@@ -50,7 +51,7 @@ export default function Geniusify() {
     return (
         <div className={"geniusify"}>
             <div className={"geniusify__body"}>
-                <h1>GeNiuSifY</h1>
+                <h1>{randomizeText("Geniusify")}</h1>
                 <div className={"geniusify-textarea__wrapper"}>
                     <textarea placeholder={"Type your text here"} className={"geniusify-textarea"} onChange={(e) => { setinputboxstate(e.target.value) }} value={inputboxstate}></textarea>
                 </div>
