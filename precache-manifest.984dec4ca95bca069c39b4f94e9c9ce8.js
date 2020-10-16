@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e679e27d3818ab392055c17339b670eb",
+    "revision": "45289b4c27277d7bc6ae0c3f66e3f9f2",
     "url": "/geniusify/index.html"
   },
   {
-    "revision": "296bb853dc935ae61505",
-    "url": "/geniusify/static/css/main.10bae19c.chunk.css"
+    "revision": "d4d26a65907f1f389748",
+    "url": "/geniusify/static/css/main.9b2aaa34.chunk.css"
   },
   {
     "revision": "4926631650a30b9a3ac1",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/geniusify/static/js/2.47e1b9fa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "296bb853dc935ae61505",
-    "url": "/geniusify/static/js/main.c6235c1f.chunk.js"
+    "revision": "d4d26a65907f1f389748",
+    "url": "/geniusify/static/js/main.ebb66d97.chunk.js"
   },
   {
     "revision": "901438d81f6c15567b60",
