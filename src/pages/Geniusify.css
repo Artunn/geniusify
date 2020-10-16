@@ -8,7 +8,7 @@
 
 .geniusify__body{
     background-color: rgba(255, 255, 255, 0.15);
-    width: 50%;
+    width: 70%;
     margin-top: 2.5rem;
     padding: 0.7rem;
     border-radius: 2rem;
@@ -29,8 +29,8 @@
 
 .geniusify-textarea{
     width: 100%;
-    max-width: 600px;
-    height: 10rem;
+    max-width: 900px;
+    height: 12rem;
     text-align: left;
     box-sizing: border-box;
     resize: none;
