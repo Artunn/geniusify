@@ -1,7 +1,8 @@
 *{
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .App {
   text-align: center;
+  height: 100%;
 }

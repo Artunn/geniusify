@@ -26,7 +26,8 @@ export default function Geniusify() {
                 noncapitalized++;
             }
             return letter;
-        }).join(""))},[inputboxstate]);
+        }).join(""))
+    }, [inputboxstate]);
 
     //Copy the clipboard
     const copyToClipboard = (e) => {
@@ -55,7 +56,7 @@ export default function Geniusify() {
                     <textarea placeholder={"Type your text here"} className={"geniusify-textarea"} onChange={(e) => { setinputboxstate(e.target.value) }} value={inputboxstate}></textarea>
                 </div>
                 <div>
-                    <button className={"geniusify-button"} onClick={geniusifyInputText}>CLICK HERE</button>
+                    <button className={"geniusify-button"} disabled={(inputboxstate.length <= 0) ? true : false} onClick={geniusifyInputText}>CLICK HERE</button>
                 </div>
                 <div className={"geniusify-textarea__wrapper"} >
                     <textarea placeholder={"YoUr ReSuLt WiLl bE hErE"} className={"geniusify-textarea"} ref={textarearef} value={geniusifiedboxstate} readOnly={true}></textarea>
