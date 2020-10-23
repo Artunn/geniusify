@@ -1,4 +1,4 @@
-artunn.github.io/geniusify
+https://artunn.github.io/geniusify
 
 <h1>What is geniusify? ⛷</h1>
 Geniusify randomly transforms letters of a text to uppercase or lowercase. Purpose is causing a mocking feel through text.
